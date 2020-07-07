@@ -1,0 +1,117 @@
+main{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#page-home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#page-home-pt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#titulo-inicial{
+    display: flex;
+    font-size: 42px;
+    width: 370px;
+    margin-left: 50px;
+    margin-top: -100px;
+    color: #5c6079;
+}
+#area-txt-page-home{
+    width: 420px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+
+    color: #96979c;
+    font-weight: 700;
+}
+#btn-posicao{
+    margin-left: -85px;
+    margin-top: 32px;
+}
+#page-home-pt2{
+    background-image: url(../imagens/bg-intro-desktop.svg);
+    display: block;
+    position: relative;
+    width: 780px;
+    height: 620px;
+
+    background-position: left;
+}
+#img-cel{
+    width: 600px;
+    background-attachment: fixed;
+    position: relative;
+    margin-left: 50px;
+}
+
+/***Página 2 ***/
+#page-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f4f5f7;
+}
+.titulo-pages{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+    color: #5c6079;
+}
+#area-txt-page-2{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #96979c;
+    font-weight: 700;
+}
+.colunas{
+    display: grid;
+    width: 990px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+}
+.colunas-posicao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.mini-titulo{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.mini-txt{
+    margin-top: 20px;
+    margin-left: 2px;
+    font-weight: 700;
+    color: #96979c;
+}
+
+/***Página 3***/
+.artigos{
+    background-color: #ffffff;
+}
+#artigos-posicao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img-tamanhos{
+    width: 280px;
+    height: 180px;
+}
+.autor{
+    font-size: 14px;
+}
+.titulo-bx-img{
+    margin-top: 15px;
+}

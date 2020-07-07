@@ -1,0 +1,113 @@
+@media (max-width: 900px) {
+    #logo {
+        margin-left: 10px;
+    }
+    #page-home {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    #page-home-pt1 {
+        margin-top: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #area-txt-page-home {
+        width: 300px;
+        margin-left: 0px;
+    }
+    #btn-posicao {
+        margin-bottom: 20px;
+    }
+    #page-home-pt2 {
+        display: none;
+    }
+    .titulo-pages, #area-txt-page-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 55px;
+    }
+    .colunas {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .colunas-posicao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mini-txt {
+        margin-bottom: 20px;
+    }
+    .p-espacamento {
+        margin-bottom: 20px;
+    }
+    .colunas-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .listas {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media(max-width: 680px) {
+    .btnMenu {
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        text-indent: -9999px;
+        padding: 20px 25px;
+    }
+    .btnMenu_open {
+        background-image: url(../imagens/icon-hamburger.svg);
+    }
+    .btnMenu_close {
+        display: block;
+        background-color: #fafafa;
+        background-image: url(../imagens/icon-close.svg);
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-100%);
+        transition: transform 300ms linear;
+        background-color: #fafafa;
+        color: #ffffff;
+        opacity: 0.9;
+        height: 100%;
+    }
+    .menu-item a {
+        color: #858585;
+    }
+    .menu-item a:hover {
+        color: #000000;
+    }
+    .menu_open {
+        transform: translateX(0);
+    }
+    .menu-item {
+        border-bottom: 1px solid #858585;
+        padding: 20px 15px;
+    }
+    #btn-inicial {
+        display: none;
+    }
+    #btn-inicial-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
