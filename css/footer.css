@@ -72,6 +72,10 @@ footer{
 .attribution { 
     font-size: 14px; 
     text-align: center; 
+
+    align-items: center;
+    justify-content: center;
+    background-color:#2d314e;
 }
 .attribution a { 
     color: #ffffff; 
